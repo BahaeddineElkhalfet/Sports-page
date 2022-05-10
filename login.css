@@ -1,0 +1,28 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    left: 50;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    background: url(https://img.freepik.com/vecteurs-libre/equipement-soccer-volleyball-baseball-rugby_1441-4026.jpg) ;
+    
+    background-size: cover;
+    top: 1%;
+  }
+  
+  .login{
+    background: rgba(171, 146, 176, 0.787);
+    width: 300px;
+    margin: 65px auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+  }
+  
