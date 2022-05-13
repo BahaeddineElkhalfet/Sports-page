@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home SN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="logo">Sports News</div>
+
+        <div id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="scroll"><a href="step2.html">Sports</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Competitions</a> </li>
+                <li id="login"><a href="../login_page/login.html">Login</a></li>
+            </ul>
+            <div>
+                <input type="search" id="search" placeholder="Search" aria-label="Search"
+                    aria-describedby="search-addon" />
+                <button type="button">search</button>
+            </div>
+        </div>
+        <p id="date"></p>
+
+    </div>
+
+    <div id="center">
+        <span class="hide-sign"><a href="step2.html">x</a></span><br><br>
+        <label for="fname"><b>First name:</b></label>
+        <input type="text" placeholder="Enter name" id="fname" name="fname" value="">
+        <br><br>
+       
+        <label for="email"><b>Email:</b></label>
+        <input type="text" placeholder="Enter Email" id="email" name="email" value=""><br>
+        <label for="psw1"><b>Password:</b></label>
+        <input type="password" placeholder="Enter Password" id="psw" name="password" value="">
+        <br>
+
+        <input type="submit" id="btn" value="Sign Up" onclick="store()"></a>
+    </div>
+
+    <script src="JavaScript.js">
+        
+    </script>
+</body>
+
+</html>

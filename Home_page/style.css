@@ -79,22 +79,22 @@
     background: black;
 }
 #center{
-   height: 30vh;
+   height: 20vh;
     width: 300px;
     margin: 65px auto;
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
             flex-direction: column;
   position: relative;
-    top: 0;
-    left: 0;
-  
+
 }
+
+
 .pointer{
     cursor: pointer;
 }
+
+
 .hide-sign{
     position: absolute;
     right: 3px;
@@ -105,19 +105,63 @@
     
 
 }
+
+
 .hide-sign:hover{
     opacity: 0.5;
 }
-.hide-sign{
-    
+
+
+.step2{
+    margin-top: -20%;
+    margin-right: 10%;
+    margin-left: 50%;
 }
-p {
+
+
+.welcome {
     text-indent: 50px;
-    text-align: justify;
-    letter-spacing: 3px;
+    
+    letter-spacing: 5px;
     text-align: center;
-  text-transform: uppercase;
+  
   color: #564caf;
   }
 
 
+  h2 span{
+      color :#e73c08
+  }
+
+
+.news{ 
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+    
+
+}
+
+
+img{
+    padding: 20;
+    margin: 30;
+    top: 0%;
+    margin-right:50% ;
+}
+
+
+.news2{ 
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+    
+
+}
+
+
+.step3{
+    margin-top: -20%;
+    margin-right: 10%;
+    margin-left: 50%;
+}
