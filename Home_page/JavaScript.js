@@ -1,38 +1,40 @@
-
-//check the password input Home page
-function check (password){
+function check(){
+  //check the password input Home page
   // get the input pasword value
   var password=$("#psw").val()
-  console.log(password)
-  //Concition
+
 if (password.length>8){
   welcome()
   store()
 }
-else{alert("please youn need to check !")} //block the user to continue
-}
+else{alert("please you need to check !")} //block the user to continue
+};
 //callback welcome
 function welcome(){
   alert("Welcome!")
-  window.location="../login_page/login.html"
+   window.open(
+              "../login_page/login.html", "_blank")
 
   $("#login1").hide()
    
-}
-// to storage user 
-function store(){
+};
 
-  localStorage.setItem("fname",$("#fname").val())
-  localStorage.setItem("psw",$("#psw").val())
+// to storage user 
+ var u= document.getElementById('fname')
+ var p= document.getElementById("psw")
+function store(){
   
-  }
+    localStorage.setItem("fname", 'u'.value)
+    localStorage.setItem("psw", 'p'.value)
+    
+    }
 // login check
 function checklogin(){
-  var user=localStorage.getItem("fname")
-  var  pass=localStorage.getItem("psw")
+  const user=localStorage.getItem("fname")
+  const  pass=localStorage.getItem("psw")
   var userlogin=document.getElementById("user")
   var passlogin=document.getElementById("pass")
-  if (userlogin.value===user&&passlogin.value===pass){
+  if (userlogin.val()===user&&passlogin.val()===pass){
     alert("you are log in !")
    window.location="./step2.html"
   }
@@ -40,5 +42,4 @@ function checklogin(){
     alert("please youn need to check again !")
   }
 }
-
 
